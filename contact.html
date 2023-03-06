@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Smartphone website</title>
+    <!-- FONTAWESOME CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google font poppingb link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./contact.css"/>
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="container nav__container">
+        <ul class="nav__items">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#faqs">FAQS</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="contact.html" target="_blank">Contact</a></li>
+        </ul>
+        <a href="index.html" class="nav__logo"><h3>Smarthome</h3></a>
+
+        <div class="nav__signin-sinup">
+          <a href="#">login</a>
+          <a href="#" class="btn">Signup</a>
+        </div>
+
+        <button type="button" id="menu-btn" aria-label="Open">
+          <i class="fa-sharp fa-solid fa-bars"></i>
+        </button>
+        <button type="button" id="close-btn" aria-label="close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </nav>
+
+    <section id="contact">
+      <div class="container">
+        <aside>
+          <h4>Get in touch</h4>
+          <p>We'd love to here from you. Our friendly team is here to chat.     </p>
+
+        
+
+        <div class="info">
+          <article>
+            <span class="icon"> <i class="fas fa-envelope"></i></span>
+            <div class="details">
+              <h5>Chat with us</h5>
+              <small>Send us an email and we'll respond shortly.</small>
+              <a href="mailto:kabuteymordecai2@gmail.com">kabuteymordecai2@gmail.com</a>
+            </div>
+          </article>
+
+          <article>
+            <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+            <div class="details">
+              <h5>Office</h5>
+              <small>Come say hello at our office HQ</small>
+              <p>123 Mill street</p>
+              <p>East Airpot, Accra</p>
+            </div>
+          </article>
+
+          <article>
+            <span class="icon"><i class="fas fa-phone"></i></span>
+            <div class="details"> 
+              <h5>Phone</h5>
+              <small>Mon-Fri  9am - 5pm</small>
+              <p>+(233) 595 704 104</p>
+            </div>
+          </article>
+        </div>
+      </aside>
+
+      <form action="https://formspree.io/f/xleknvgn" method="POST" target="_blank">
+        <input type="text" name="Name" placeholder="your name" required />
+        <input type="email" name="Email address" placeholder="you@yourcompany.com" required>
+        <input type="number" name="Phone Number" placeholder="Phone Number" required>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="type text here" required></textarea>
+        <button type="submit" class="btn" aria-label="submit button"> Send</button>
+      </form>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <footer >
+        <div   class="container footer__container">
+          <div class="footer__1">
+            
+              <a href="index.html"><h3 class="footer__logo">Smarthome</h3></a>
+              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
+              <div class="footer__subscribe">
+                <input type="email" name="email" placeholder="Enter your email" required />
+                <button type="submit" aria-label="submit"><i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+            <div class="footer__2">
+              <h4>Parmalinks</h4>
+              <ul class="permalinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#faqs">FAQS</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer__3">
+              <h4>Privicy</h4>
+              <ul>
+  
+               <li> <a href="#">Privacy Police</a></li>
+               <li> <a href="#">Terms and conditions</a></li>
+               <li>  <a href="#">Refund Policy</a></li>
+              </ul>
+            </div>
+            <div class="footer__4">
+              <h4>Contact Us</h4>
+              <p> + 233 595704104 <br> kabuteymordecai2@gmail.com</p>
+              <div class="footer_socails">
+                <a href="https://facebook.com/apple" rel="noopener" target="_blank" aria-label="Apple facebook page"
+                ><i class="fa-brands fa-facebook" ></i
+                  ></a>
+                  <a href="https://instagram.com/apple" rel="noopener" target="_blank" aria-label="Apple"
+                  ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                    <a href="https://twitter.com/apple" rel="noopener" target="_blank" aria-label="Read more about Seminole tax hike"
+                    ><i class="fa-brands fa-twitter"></i
+                      ></a>
+                      <a href="https://linkedin.com/apple" rel="noopener" target="_blank"  aria-label="Read more about Seminole tax hike"
+                      ><i class="fa-brands fa-linkedin"></i
+                        ></a>
+                      </div>
+                      
+                    </div>
+                  </div>
+       
+
+                  
+        <div class="copyright">
+          <small>copyright &copy; Kabutey Mordecai Gugue </small> 
+        </div>
+  
+       </footer>
+  
+       <script src="./script.js"></script>
+  </body>
+</html>
