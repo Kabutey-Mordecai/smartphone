@@ -14,6 +14,20 @@
   grid-template-columns: 20rem auto;
   gap: 5rem;
 }
+
+aside {
+  transition: all 400ms ease;
+  box-shadow: 0 1rem 1rem rgba(128, 128, 128, 0.865);
+}
+aside:hover{
+  box-shadow: 0 1rem 1rem var(--color-primary-variant);
+  background:var(--color-white);
+}
+
+form button{
+  margin-left: 18rem;
+  
+}
 #contact .container aside {
   background: var(--color-light);
   padding: 2rem;
@@ -80,6 +94,11 @@
   background: var(--color-black);
   color: var(--color-white);
   cursor: pointer;
+}
+
+.info a{
+  
+  color:var(--color-black);
 }
 
 /* /* ================ MEDIA QUERIES =============== ' */
